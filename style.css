@@ -1,15 +1,48 @@
-/* Style CSS pour la mise en page */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(to bottom, #000000, #585b5e);
+    color: #333;
 }
 
-header, footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+header {
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: #e62c0b;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    text-align: center;
+    padding: 7px 0;
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.dropdown-menu ul li a {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.dropdown-menu ul li a:hover {
+    color: darkred;
 }
 
 .container {
@@ -18,6 +51,106 @@ header, footer {
     padding: 0 20px;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .section {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
     margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 10px); /* Largeur de 50% moins la marge */
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    position: relative; /* Permet d'utiliser la position absolue à l'intérieur du pied de page */
+}
+
+.black-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    max-width: 800px;
+    margin: 0 auto;
+    border-top: 3px solid #fff; /* Barre séparatrice en haut */
+    padding-top: 10px; /* Espacement au-dessus de la barre */
+}
+
+.social-media, .contact {
+    flex: 1;
+}
+
+.contact {
+    padding-left: 20px; /* Espacement à gauche */
+    border-left: 2px solid #fff; /* Bordure à gauche pour la séparation */
+}
+
+/* Réinitialisation des marges et des rembourrages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style pour la division de page */
+.page-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Ajouter un espace de 20px entre chaque division de page */
+}
+
+/* Style pour les cases de projet */
+.project-case {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 10px; /* Ajouter un espace de 10px entre les colonnes */
+    margin-bottom: 10px; /* Ajouter un espace de 10px entre les lignes */
+}
+
+/* Style pour les titres de projet */
+.project-case h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style pour les paragraphes de projet */
+.project-case p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Style pour les liens de projet */
+.project-case a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Style pour les liens de projet au survol */
+.project-case a:hover {
+    text-decoration: underline;
+}
+
+
+/* Style pour la grille d'images */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+/* Style pour les images à l'intérieur de la grille */
+.image-grid img {
+    max-width: 100%;
+    height: auto;
 }
