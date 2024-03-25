@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Carnet de Lecture</title>
+		<link rel="stylesheet" href="style2.css">
+	</head>
+	   </nav>
+	      </ul>
+		    <li>
+			   <a href="index.html">
+			       Accueil
+			   </a>
+			</li>
+			<li>
+			    <a href="news.html">
+				    Actualités
+			   </a>
+			</li>
+			<li>
+			    <a href="contact.html">
+				    Contact FM
+			   </a>
+			 </li>
+		   </ul>
+		 </nav>
+	
+			   
+					
+	<body>
+		<h1>
+		<p>Differentes Lectures</p>
+		</h1>
+		
+		<h3>
+		<p>Sur cette page sera mis tout les comptes rendus des livres lu en seconde et première.</p>
+		</h3>
+		
+		<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Imagine_Dragons%2C_Roundhouse%2C_London_%2835390234536%29.jpg/1200px-Imagine_Dragons%2C_Roundhouse%2C_London_%2835390234536%29.jpg" width=200 /></p>
+		<p align="center"><a href="https://www.imaginedragonsmusic.com/" title="Imagine Dragons site officiel">Site Officiel d'Imagine Dragons</a>
+		
+		<h2>
+		<p>Chansons les plus connus d'Imagine Dragons:</p> 
+		<ol>
+			<li>Beliver</li><a href="" title="Imagine Dragons Beliver">Beliver sur Youtube</a>
+			<li>Cendrillon</li><a href="cendrillon.html">
+			<li>Demons</li><a href="" title="Imagine Dragons Demons">Demons sur Youtube</a>
+		</ol>
+		
+		<p>Meilleur Chanson d'Imagine Dragons selon moi:</p> 
+		
+		<p align="center"><a href="https://www.youtube.com/watch?v=k3zimSRKqNw" title="Imagine Dragons Demons">Follow You</a>
+		</h2>
+		
+		<p align="center"><img src="https://img.src.ca/2015/07/03/1250x703/150703_c90qs_aetd_imagine_dragons_sn1250.jpg" /></p>
+		
+	</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+	background-color: black;
+	color: #ffffff;
+}
+
+h1{
+	font-family: "Georgia", serif;
+	color: ##0000FF;
+	font-size: 40px;
+	text-align:center;	
+}
+
+h2{
+	font-family: "Calibri";
+	color: black;
+	font-size: 18px;
+	text-align:left;
+}
+
+h3{
+	font-family: "Georgia", serif;
+	color: #003CFF;
+	font-size: 18px;
+	text-align:center; 	
+}
+h4{
+	font-family: "Georgia", serif;
+	color: black;
+	font-size: 18px;
+	text-align:center; 	
+}
