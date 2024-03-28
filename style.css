@@ -200,3 +200,85 @@ p {
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+/* Style de la page d'infographie */
+.infographie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Style des cadres */
+.frame {
+    width: calc(33.33% - 20px); /* Largeur de chaque cadre */
+    margin: 20px; /* Marge entre les cadres */
+    border: 5px solid #000; /* Bordure */
+    border-radius: 10px; /* Coins arrondis */
+    overflow: hidden; /* Empêche les images de déborder */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre */
+}
+
+/* Style des images à l'intérieur des cadres */
+.frame img {
+    display: block;
+    width: 100%; /* Pour remplir tout le cadre */
+    height: auto; /* Pour conserver les proportions de l'image */
+}
+
+h4 {
+    color:  #3dc23d;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container {
+    width: 200px; /* Largeur du cadre */
+    height: 200px; /* Hauteur du cadre */
+    margin: 20px;
+    border: 4px solid #fff; /* Bordure */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre */
+    border-radius: 10px; /* Coins arrondis */
+    background-size: cover; /* Redimensionner l'image pour remplir le cadre */
+    background-position: center; /* Centrer l'image */
+}
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.image4 {
+    flex: 1;
+    margin-right: -210px; /* Ajoute une marge à droite pour séparer l'image du texte */
+    margin-left: 50px; /* Ajoute une marge à gauche pour rapprocher l'image du texte */
+}
+
+.image4 img {
+    width: 50%; /* Ajustez la largeur de l'image selon vos besoins */
+    height: auto;
+    border-radius: 50px; /* Pour arrondir les coins de l'image */
+}
+
+.text4 {
+    flex: 2;
+}
+
+.text4 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text4 p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h5 {
+    color:  #0edd18;
+    margin-left: 10px;
+}

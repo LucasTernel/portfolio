@@ -1,0 +1,115 @@
+#corps{
+	margin : auto;
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	border: 1px solid black;
+	background-color:rgb(20,20,20);
+}
+
+.division_principale{
+	margin : auto;
+	display : flex;
+	justify-content : center;
+	width:90%;
+	font-size:16px;
+	color: white;
+}
+
+.division_principale:nth-child(1){
+	align-self:flex-start;
+	
+	height:10%;
+	
+}
+
+.division_principale:nth-child(2){
+	align-self:flex-center;
+	height:25%;
+	
+}
+
+.division_principale:nth-child(3){
+	align-self:flex-center;
+	height:25%;
+	
+}
+
+.division_principale:nth-child(4){
+	align-self:flex-center;
+	height:25%;
+	
+}
+
+.division_principale:nth-child(5){
+	align-self:flex-end;
+	height:10%;
+	
+	
+}
+
+.division_secondaire{
+	margin : auto;
+	display : flex;
+	flex-direction:column;
+	justify-content : center;
+	align-items:center;
+	text-align:center;
+	width:45%;
+	height:150px;
+	padding:15px;
+	background-color:rgb(100,100,255);
+	color:white;
+	border: 1px solid black;
+	border-radius:15px;	
+	
+}
+
+
+TD {
+	border : 1px solid black;
+	width : 80px;
+	height : 50px;
+	background-color : white;
+	text-align : center;
+	
+}
+
+#champs_texte_couleurs{
+	margin : auto;
+	display : flex;
+	width : 90%;
+	justify-content : space-around;
+	align-items: space-around;
+	text-align:center;
+}
+
+.MesChampsdeTexte{
+	text-align : center;
+	width:80px;
+	font-size:28px;
+	border: 1px solid black;
+	border-radius:5px;	
+}
+
+.mesBoutons{
+	text-align : center;
+	cursor : pointer;
+	width : 60px;
+	height: 30px;
+	box-shadow: 10px,10px,10px,black;
+	border-radius:5px;	
+	margin:10px;
+	
+}
+
+.mesBoutons:hover{
+	text-align : center;
+	cursor : pointer;
+	width : 65px;
+	height: 35px;
+	box-shadow: 20px,20px,20px,black;
+	border-radius:5px;	
+	margin:10px;
+}

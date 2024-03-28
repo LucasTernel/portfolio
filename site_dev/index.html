@@ -1,0 +1,87 @@
+<HTML> <!-- Balise de départ de la page HTML --> 
+	<TITLE> 
+		ma page
+	</TITLE> 
+	<link rel="icon" type="image/jpg" href="/1NSI/6- Le Web/Pack départ découverte/Images/informatique-logo-icon-design-127782525.jpg" />
+	<HEAD> <!-- On met entre les balises HEAD le type de codage des caratères de la page et les liens vers les pages de syles ou de javascript--> 
+		<meta charset="UTF-8" /> <!-- type de codage des caractères --> 
+		<link href = "CSS/style.css" rel="stylesheet" type="text/css" media ="screen"/>
+		<script type="text/javascript" src="JS\code.js"></script>
+	</HEAD>
+	<BODY id="corps"><!-- C'est entre les balises BODY qu'on insère les objets de la page --> 
+		
+		<HEADER class="division_principale" id="DP1">
+		<a href="../pro_classes.html" class="back-to-index" title="Retour aux projets">&larr;</a>
+			<h1>MA PAGE WEB : Un peu de tout !</h1>
+		</HEADER>
+		
+		<DIV class="division_principale" id="DP2">
+			
+			<DIV class="division_secondaire" id="DS2-1">
+			<h3 align = "center"> L'Architecture de Van Neumann </h3>
+			<article> L’architecture dite architecture de von Neumann est un modèle pour un ordinateur qui utilise une structure de stockage unique pour conserver à la fois les instructions et les données demandées ou produites par le calcul. De telles machines sont aussi connues sous le nom d’ordinateur à programme enregistré. La séparation entre le stockage et le processeur est implicite dans ce modèle. <article>
+			</DIV>
+			<DIV class="division_secondaire" id="DS2-2">
+			<IMG src = "Images/Von_Neumann_architecture.png" width = "175" height="175">
+			</DIV>
+		</DIV>
+		
+		<DIV class="division_principale" id="DP3">
+			<DIV class="division_secondaire" id="DS3-1">
+			<TABLE>
+                <TR>
+                    <TD>CLASSE</TD>
+                    <TD>1G1</TD>
+					<TD>1G2</TD>
+					<TD>1G3</TD>
+					<TD>1G4</TD>
+				<TR>
+				    <TD>Effectif Spé NSI</TD>
+                    <TD>9</TD>
+					<TD>11</TD>
+					<TD>3</TD>
+					<TD>7</TD>
+				</TR>
+            </TABLE>				
+			</DIV>
+			<DIV class="division_secondaire" id="DS3-2">
+			<P> Entrer votre âge : </p>
+                <form>
+					<input type="text" class="MesChampsdeTexte" id="age" value="">
+				</form>
+				<button type ="button" class="mes boutons" id="boutonValiderAge" onclick=MajeurouMineur()>valider</button>
+				<p id="reponse"></p>
+			</DIV>
+		</DIV>
+		
+		<DIV class="division_principale" id="DP4">
+			<DIV class="division_secondaire" id="DS4-1">
+			<p> Changer de couleur de Fond ! Entrer vos composantes de couleurs, de 0 à 255 !</p>
+			<form id = "champs_texte_couleurs">
+				<input type="test" class ="MesChampsdeTexte" id="rouge" value="rouge" onfocus="this.value=''">
+				<input type="test" class ="MesChampsdeTexte" id="vert" value="vert" onfocus="this.value=''">
+				<input type="test" class ="MesChampsdeTexte" id="bleu" value="bleu" onfocus="this.value=''">
+			</form>
+				<button type ="button" class="mes boutons" id="boutonValiderCouleur" onclick=ChangerCouleur()>valider</button>
+			</DIV>
+			<DIV class="division_secondaire" id="DS4-2">
+				<p>La machine d'arithmétique fait des effets qui approchent plus de la pensée que tout ce que font les animaux ;
+				mais elle ne fait rien qui puisse faire dire qu'elle a de la volonté, comme les animaux.<br>
+				Qui est l'auteur de cette pensée?</p>
+				<form id="propositions">
+					<input type="radio" name = "quizz" id="choix1"> Blaise Cendrars
+					<input type="radio" name = "quizz" id="choix2"> Blaise Pascal
+					<input type="radio" name = "quizz" id="choix3"> Blaise Matuidi
+				</form>
+				<button type ="button" class="mes boutons" id="boutonValiderQuizz" onclick=EvaluerQuizz()>valider</button>
+				<p id="evaluation"></p>
+			</DIV>
+		</DIV>
+		
+		<FOOTER class="division_principale" id="DP5">
+				Created By Lucas Ternel 1G10
+		</FOOTER>
+	
+	</BODY>
+
+</HTML><!-- Balise de fin de la page HTML --> 
