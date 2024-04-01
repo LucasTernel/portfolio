@@ -282,3 +282,22 @@ h5 {
     color:  #0edd18;
     margin-left: 10px;
 }
+
+.pdf-bloc-blanc {
+    display: flex;
+    justify-content: center; /* Aligner horizontalement au centre */
+    align-items: center; /* Aligner verticalement au centre */}
+
+.pdf-lien {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block; /* Pour s'adapter à la taille du contenu */
+    text-decoration: none; /* Pour supprimer le soulignement du lien */
+    color: #000000; /* Couleur du texte */
+    transition: background-color 0.3s; /* Transition de couleur au survol */
+}
+/* Style pour le survol */
+.pdf-lien:hover {
+    background-color: #f0f0f0; /* Couleur de fond au survol */
+}
