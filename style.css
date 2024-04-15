@@ -85,6 +85,9 @@ footer {
 
 .social-media, .contact {
     flex: 1;
+    color: rgb(188, 166, 201);
+    text-decoration: none;
+}
 }
 
 .contact {
